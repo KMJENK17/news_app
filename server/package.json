@@ -12,6 +12,7 @@
     "bcrypt": "^5.0.1",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
+    "bootstrap": "^5.1.2",
     "express": "^4.17.1",
     "express-session": "^1.17.2",
     "mustache": "^4.2.0",
