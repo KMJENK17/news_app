@@ -7,7 +7,7 @@ export default class Articles extends React.Component {
     }
 
     async componentDidMount() {
-        const url = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=53e9f1c1a39e4a74b9ccb03412fb05ea'
+        const url = 'https://crimson-flaxen-trombone.glitch.me/top-news'
         const response = await fetch(url)
         const data = await response.json()
         this.setState({ articlesData: data.articles })

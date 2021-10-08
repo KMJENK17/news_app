@@ -44,7 +44,7 @@ app.post('/login', (req, res) => {
                 if (result) {
                     if (req.session) {
                         req.session.userId = user.id
-                        res.redirect('home')
+                        res.redirect('http://myownnewsapp.surge.sh')
                     }
                 } else {
                     res.render('login', { errorMessage: 'INVALID DETAILS' })
